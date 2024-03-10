@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: roboto;
+}
+.bg-black{
+    background-color: black;
+}
+.main-bg{
+    background-image: url('img/bg-img-1.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+}
+
+.add-bot-text{
+    margin-top: 240px;
+}
+.add-bt{
+    height: 60px;
+    width: 130px;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-family: roboto;
+    font-weight: 400;
+    color: white;
+    background-color: #7289DA;
+}
+
+.add-bt:hover{
+
+    border: 1px rgb(53, 52, 52) solid;
+    background-color: #7285ca;
+    color: rgb(18, 214, 18);
+}
+
+.headings{
+    text-decoration: underline;
+}
+input{
+    height: 50px;
+    width: 70%;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 10px;
+}
+textarea{
+    width: 70%;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 10px;
+}
+.fb-bt{
+    height: 45px;
+    width: 90px;
+    border: 2px black solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    font-family: roboto;
+}
+.fb-bt:hover{
+    background-color: rgb(22, 238, 22);
+    border: 1px black solid;
+    border: 4px;
+}
+code{
+    background-color: rgb(46, 45, 44);
+}
+.center-form {
+    text-align: center;
+    margin: 0 auto; 
+    width: 90%; 
+}
